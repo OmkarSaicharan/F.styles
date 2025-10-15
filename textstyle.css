@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Select all paragraphs inside a div */
+    div p {
+      color: darkred;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    /* Styling links on hover */
+    a:hover {
+      color: green;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>This is styled text inside a div.</p>
+    <a href="#">Hover over me</a>
+  </div>
+</body>
+</html>
